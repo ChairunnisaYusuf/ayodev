@@ -7,12 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>AYO DEV</title>
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="styleLogin.css">
+
     <style>
         html {
             height: 100%;
@@ -76,7 +72,7 @@
 
         #title {
             position: absolute;
-            top: 50%;
+            top: 0%;
             left: 0;
             right: 0;
             color: #FFF;
@@ -85,7 +81,7 @@
             font-weight: 300;
             font-size: 50px;
             letter-spacing: 10px;
-            margin-top: -250px;
+            margin-top: -60px;
             padding-left: 10px;
         }
 
@@ -93,49 +89,6 @@
             background: -webkit-linear-gradient(white, #38495a);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-        }
-        #flex1{
-            margin-top: -110px;
-            padding-left: 700px;
-        }
-        body{
-            list-style: none;
-        }
-        #dropdown{
-            margin-top: -5px;
-            padding-left: 650px;
-            /*font-size: 40px;*/
-
-        }
-        
-        #dropdown:hover .dropdown-menu {
-            display: block;
-
-        }
-        #navbarDropdown{
-            background: transparent;
-        }
-        .dropdown-menu{
-            font-size: 12px;
-            margin-top: -10px;
-            margin-left: 650px;
-            background: transparent;
-        }
-        .dropdown-menu a { 
-            color:white!important;
-
-        }
-        .footer{
-            font-size: 11px;
-            /*background-color: transparent;*/
-            margin-top: 330px;
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            color: white;
-            text-align: center;
-            letter-spacing: 2px;
         }
 
         @keyframes animStar {
@@ -153,36 +106,36 @@
     <div id='stars'></div>
     <div id='stars2'></div>
     <div id='stars3'></div>
-    <div id='title'>
-     <center>
-            <div class="d-flex align-items-end flex-column bd-highlight mb-3" id="wrap" style="height: 200px;" >
-            <img src="home.png">
-                <div class="p-2 bd-highlight" id="flex1">
-                <li class="nav-item dropdown" id="dropdown">
-                <a class="btn btn-outline-light btn-sm btn-secondary dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="dropdown">
-                  pilih disini
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="daftarProdukPembersih.php">about us</a>
-                    <a class="dropdown-item" href="structur.html">structure</a>
-                    <a class="dropdown-item" href="daftarProdukFaceOil.php">module</a>
-                    <a class="dropdown-item" href="daftarProdukCleansingOil.php">Curriculum</a>
-                    <a class="dropdown-item" href="daftarProduklipTreatment.php">suratku</a>
-                    <a class="dropdown-item" href="daftarProdukMoist.php">login</a>
-          
-                </div>
-             </li>
-                </div>
-            </div>
+   <!--  <div id='title'>
+        <h2>AYO DEV</h2>
+        </span>
+    </div>
 
-            <div class="footer">
+ -->
+<div class="login-page">
+    <div class="form">
+        <img src="logo.png" width="200">
+        
+<form class="login-form">
+    <label for="nim"><b>NIM</b></label> <br>
+    <input type="text" id="nim" >
+    <br>
+    <label for="password"><b>PASSWORD</b></label> <br>
+    <input type="password" id="password" >
+<button><b>LOG IN</b></button>
+</form>
+
+    </div>
+</div>
+</span>
+
+ <div class="footer">
             <p>Copyright 2018 AYODEV Studio. All rights reserved</p>
             </div
             
-            </center>
-
-        </span>
+      
     </div>
+
 
 </body>
 
