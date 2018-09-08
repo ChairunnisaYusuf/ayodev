@@ -1,0 +1,101 @@
+body{
+	position: relative;
+	padding-top: -60px;
+height: 100vh;
+width: 100%;
+background-size: cover;
+background-position: center;
+}
+
+.login-page{
+	width: 360px;
+	padding: 10% 0 0;
+	margin: auto;
+}
+
+.form {
+	/*position: relative;*/
+	/*z-index: 0;*/
+	background: rgba(50,50,47,1);	/*untuk mewarnai kotak diluar field username dll*/
+	background-color: 
+	width: 310px;
+	margin: 0 auto 50px;
+	padding: 35px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.form label{
+color: #bdc8dc;
+	font-family: "Arial Rounded MT Bold", sans-serif;
+font-size: 14px;
+
+}
+
+.form input {
+	font-family: "Arial Rounded MT Bold", sans-serif;
+	outline: 1;
+	background: #bdc8dc; 	/*untuk mewarnai kotak field username dll*/
+	width: 100%;
+	border: 0;
+	border-radius: 10PX;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box; /*menyesuaikan kotak field dgn kotak luar*/
+	font-size: 14px;
+
+}
+
+.form button {
+	font-family: "Arial Rounded MT Bold", sans-serif;
+	/*text-transform: uppercase;*/
+	outline: 1;
+	background: orange;
+	width: 50%;
+	border:0;
+	border-radius: 10px;
+	padding: 15px; /*ngatur atas bawahnya*/
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+
+.form button:hover, 
+.form button:active {
+
+	background: #43A047;
+}
+
+
+.footer{
+            font-size: 11px;
+            /*background-color: transparent;*/
+            margin-top: 330px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            color: white;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
